@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
 
-    var gitApi = "https://api.github.com/search/users?q="
+    var gitApi = "https://api.github.com/search/users?q=";
 
     $("#searchForm").submit(function (event) {
         //console.log("Handler for search .submit() called.");

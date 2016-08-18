@@ -88,7 +88,7 @@ function displayResults(data) {
         })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)
-};
+}
 
 function type(d) {
     d.frequency = +d.frequency;
